@@ -1,0 +1,30 @@
+* {
+    font-family: 'Mukta', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background: url(../img/Mate\ Feed\ kill\ repeat\ fondo.jpg) no-repeat center;
+    background-size: cover fixed;
+}  
+.paquete {
+    width: 300px;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 2px 2px 6px rgb(92, 92, 92);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 4px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
